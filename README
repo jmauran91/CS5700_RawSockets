@@ -1,0 +1,15 @@
+# Raw HTTP Get
+
+Project 4: rawhttpget
+
+## Partners
+
+John Mauran, Helena Dworak
+
+### Thoughts
+
+For this project, we struggled with consistently ACKing the packets for a while. There would be a big delay in our ACK which would cause the server to retransmit packets and the packet window would never be increased. 
+
+Secondly, we were struggling with the TCP headers for a while. The format and flag specifications were difficult. 
+
+Otherwise, this was just a lot of little adjustments. Constantly. And Wireshark. A lot, a lot of Wireshark. 
