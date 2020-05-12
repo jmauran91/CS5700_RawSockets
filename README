@@ -13,3 +13,8 @@ For this project, we struggled with consistently ACKing the packets for a while.
 Secondly, we were struggling with the TCP headers for a while. The format and flag specifications were difficult. 
 
 Otherwise, this was just a lot of little adjustments. Constantly. And Wireshark. A lot, a lot of Wireshark. 
+
+rawhttpget / proj4.py - the files that run the rawsockets program, which downloads a given webpage using TCP built from scratch
+result.txt - the resulting file from the program
+sharkparse.py - returns easily legible results from wireshark pcap files
+sniffer.py - sniffs a single incoming TCP packet
